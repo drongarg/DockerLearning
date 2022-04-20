@@ -1,8 +1,15 @@
-a = int(input('Enter the first number'))
-b = int(input('Enter the Second number'))
 
-c = a + b
 
-print(f'{a} + {b} is {c}')
+def calsum(a,b):
 
-print('program exited.')
+    c = a + b
+
+    return c
+
+a = 2
+b = 6
+result = calsum(a,b)    
+
+print(a," + ",b," is ",result)
+print('program exited successfully')
+
