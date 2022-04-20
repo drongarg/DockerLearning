@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  calculatesum:
+    image: calculatesum
+    build:
+      context: .
+      dockerfile: ./Dockerfile
